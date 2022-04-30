@@ -1,0 +1,233 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html body{
+  width: 100%;
+}
+.navbar-container{
+  background-image: url('../img/navbar.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:0 80px;
+}
+.buttons a{
+  text-decoration: none;
+  color:black;
+  font-size: 18px;
+}
+.buttons a:nth-child(odd){
+  color:#1a519e;
+}
+.buttons a{
+  margin:20px;
+}
+
+.progress{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px 0;
+  height: auto;
+  background: none;
+}
+
+.adviceProgress {
+  width: 30px;
+  height: 30px;
+  background-color: #1078AD;
+  border-radius: 100%;
+}
+
+.questionsProgress {
+  width: 30px;
+  height: 30px;
+  background-color: #1078AD;
+  border-radius: 100%;
+}
+
+.resultProgress {
+  width: 30px;
+  height: 30px;
+  background-color: #1078AD;
+  border-radius: 100%;
+}
+
+.adv, .quests, .result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progressHover1 {
+  background-color: #F4CF1B;
+}
+
+.progressHover2 {
+  width: 60px;
+  height: 60px;
+  background-color: #98bed1;
+  border-radius: 100%;
+}
+
+.progressFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qs{
+  font-size: 30px;
+  width: 900px;
+  margin: auto;
+  display:flex;
+  flex-direction: column;
+  padding:0px 0px 45px 0px;
+  border: 1px solid lightgrey;
+}
+
+.qs p{
+  text-align: center;
+  margin: 20px 0 20px 0;
+  padding: 0px 40px;
+  height: 200px;
+}
+.qs form{
+  height: 100px;
+}
+.qs .btns button{
+  font-size: 20px;
+  background: #3894c2;
+  border: none;
+  color:white;
+  padding:10px 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+#oui{
+  margin-bottom:20px;
+}
+
+.btns{
+  margin-top:40px;
+  padding:  0px 40px;
+  display:flex;
+  justify-content: space-between;
+}
+.btnsQ1 {
+  margin-top:40px;
+  padding:  0px 40px;
+  display:flex;
+  justify-content: flex-end;
+}
+.btnsQ1 button {
+  font-size: 20px;
+  background: #3894c2;
+  border: none;
+  color:white;
+  padding:10px 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.inactive{
+  display: none;
+}
+.active{
+  display:block;
+}
+
+#paragraphConseil {
+  background-color: lightgray;
+  padding: 20px 30px;
+  font-size: 20px;
+}
+#conseilP h5 {
+  padding-top: 20px;
+  font-size: 30px;
+  color:  #1078AD;
+
+}
+#paragraphConseil p {
+  padding: 20px;
+}
+.btn-start{
+  background-color: rgba(16, 121, 173, 0.2);
+  border: 2px solid #1078AD;
+  color: #1078AD;
+  width: 300px !important;
+  font-size: 32px !important;
+}
+.btn-start:hover{
+  background-color: #1078ad;
+  color: white;
+}
+.mybtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#fil {
+  background-color: lightgray;
+  padding: 5px 10px;
+}
+
+.radioStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.margin-left {
+  margin-left: 40px;
+}
+.margin-left-label {
+  margin-left: 10px;
+}
+
+/* result css */
+.resultTest{
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  width: 70%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+}
+.tres{
+  color: #1078AD;
+  font-weight: bolder;
+}
+.res1{
+  color: red;
+  font-weight: bold;
+}
+.dbtn{
+  background-color: rgba(16, 121, 173, 0.2);
+  border: 2px solid #1078AD;
+  color: #1078AD;
+  width: 300px !important;
+  font-size: 20px !important;
+  padding: 5px;
+  margin: 0 auto;
+}
+.dbtn:hover{
+  color: white;
+}
+.inactiveResult{
+  display: none;
+}
+.activeResult {
+  display: block;
+}
